@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CelToFah</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- icon bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <style>
+        @media only screen and (max-width:500px) {
+            #ch {
+                offset: 0;
+            }
+
+            input {
+                width: 90%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ConverSion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-li" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Main box start here -->
+    <div class="container-fluid mt-5">
+        <div class="row ">
+            <div class="col-md-6 col-11  p-3 offset-1" id="ch" style="background-color: #e8e8e8;">
+                <h1>Temperature Converter</h1>
+                <p>Temperature degrees conversions of Fahrenheit (°F), Celsius (°C), Kelvin (K), Rankine (°R).</p>
+                <div class="row p-2 ">
+                    <div class="col-sm-3 col-4 " style="font-size:20px; font-weight: bold;">Celcius :</div>
+                    <div class="col-sm-5 col-5"> <input type="number" value="0" id="cel"> </div>
+                    <div class="col-sm-1 col-2">
+                        <h5>C</h5>
+                    </div>
+
+                </div>
+                <div class="row p-2 ">
+                    <div class="col-sm-3 col-4 " style="font-size:20px; font-weight: bold;">Fahrenheit :</div>
+                    <div class="col-sm-5 col-5"> <input type="number" value="32" id="fah"> </div>
+                    <div class="col-sm-1 col-2">
+                        <h5>F</h5>
+                    </div>
+                </div>
+                <!-- <div class="row p-2 ">
+                <div class="col-sm-3 col-4 " style="font-size:20px; font-weight: bold;">Kelvin :</div>
+                <div class="col-sm-5 col-5"> <input type="number" value="273.15" id="kel"> </div>
+                <div class="col-sm-1 col-2">
+                    <h5>k</h5>
+                </div>
+            </div> -->
+                <!-- <div class="row p-2 ">
+                <div class="col-sm-3 col-4 " style="font-size:20px; font-weight: bold;">Rankine :</div>
+                <div class="col-sm-5 col-5"> <input type="number" value="491.67" id="ran"> </div>
+                <div class="col-sm-1 col-2">
+                    <h5>R</h5>
+                </div>
+            </div> -->
+
+
+
+            </div>
+        </div>
+
+        <!-- how start -->
+        <div class="row">
+            <div class="col-md-6 col-11 offset-1 mt-5">
+                <h3>How to convert celcius to fharenheit</h3>
+
+                <p>0 degrees Celsius is equal to 32 degrees Fahrenheit: <br>
+
+                <h3>0 °C = 32 °F</h3>
+
+                The temperature T in degrees Fahrenheit (°F) is equal to the temperature T in degrees Celsius (°C) times
+                9/5 plus 32: <br>
+
+
+                <h3> T(°F) = T(°C) × 9/5 + 32</h3>
+
+                or <br>
+
+                <h3>T(°F) = T(°C) × 1.8 + 32</h3>
+
+                Example <br>
+                Convert 20 degrees Celsius to degrees Fahrenheit: <br>
+
+                <h3>T(°F) = 20°C × 9/5 + 32 = 68 °F</h3>
+                </p>
+            </div>
+        </div>
+        <!-- how end -->
+
+        <!-- temp conversio section start here -->
+        <div class="row mt-3">
+
+            <div class="col-md-6 col-11 offset-1">
+                <h2>Temperature Conversions</h2>
+                <ul>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+
+
+
+                </ul>
+
+                <hr style="height:4px;">
+                <h2>See also</h2>
+                <ul>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+
+                </ul>
+
+                <h3>Write how to improve this page</h3>
+                <textarea name="" id="" cols="30" rows="4" placeholder="Youe message..."></textarea>
+                <button style="display: block;" type="button" class="btn mb-4 btn-secondary">Submit Feedback</button>
+
+            </div>
+            <div class="col-md-4 col-11">
+                <h3>Conversion</h3>
+                <ul>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                    <li> <a class="text-decoration-none" href="#">Fahrenheit to Celsius conversion</a> </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <!-- temp conversion section end here -->
+
+
+
+        <!-- FOOTER SECTION DTART HERE -->
+        <!-- <div class="row mt-3 text-center  bg-secondary pt-2" style="display:
+     inline-block;">
+        <a class="text-decoration-none" href="#">About</a>
+        <a class="text-decoration-none" href="#">About</a>
+        <a class="text-decoration-none" href="#">About</a>
+    </div> -->
+        <!-- footer section end here -->
+        <!-- container-fluid end -->
+    </div>
+    <!-- Main box end here -->
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+        let cel = document.getElementById("cel");
+        let fah = document.getElementById("fah");
+        cel.addEventListener('input', function () {
+            let c = parseFloat(this.value);
+            let f = (c * 9 / 5) + 32;
+            if (!Number.isInteger(f)) {
+                f = f.toFixed(4);
+            }
+            fah.value = f;
+        })
+
+        fah.addEventListener('input', function () {
+            let f = parseFloat(this.value);
+            let c = (f - 32) * 5 / 9;;
+            if (!Number.isInteger(c)) {
+                c = c.toFixed(4);
+            }
+            cel.value = c;
+        })
+    </script>
+</body>
+
+</html>
